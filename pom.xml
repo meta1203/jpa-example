@@ -38,7 +38,7 @@
 			<artifactId>spring-boot-starter-validation</artifactId>
 		</dependency>
 		<!-- Just using an H2 in-memory database here for demonstration purposes. -->
-		<!-- Replace this with whatever DB you plan on using -->
+		<!-- Replace this with a driver for whatever DB you plan on using -->
 		<dependency>
 			<groupId>com.h2database</groupId>
 			<artifactId>h2</artifactId>
