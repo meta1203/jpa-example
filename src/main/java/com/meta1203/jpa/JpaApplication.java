@@ -33,7 +33,7 @@ public class JpaApplication {
 		// I'm using H2's in-memory DB for demonstration purposes 
 		config.setJdbcUrl("jdbc:h2:mem:testdb");
 		
-		// set the username and password for the DB. set this how you want, just don't set it in plain-text here
+		// set the username and password for the DB. set this how you want, just don't hard-code it in plain-text
 		// H2's in-memory DB doesn't require a username or password, but they're commented here for the sake of completeness
 		//config.setUsername(System.getenv("DB_USERNAME"));
 		//config.setPassword(System.getenv("DB_PASSWORD"));

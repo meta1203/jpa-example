@@ -18,8 +18,8 @@ import org.springframework.web.bind.annotation.RestController;
 
 import com.meta1203.jpa.model.Stock;
 import com.meta1203.jpa.model.StockValue;
-import com.meta1203.jpa.model.repository.StockRepository;
-import com.meta1203.jpa.model.repository.StockValueRepository;
+import com.meta1203.jpa.repository.StockRepository;
+import com.meta1203.jpa.repository.StockValueRepository;
 
 /*
  * Basic CRUD REST controller.

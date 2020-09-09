@@ -1,4 +1,4 @@
-package com.meta1203.jpa.model.repository;
+package com.meta1203.jpa.repository;
 
 import javax.transaction.Transactional;
 
